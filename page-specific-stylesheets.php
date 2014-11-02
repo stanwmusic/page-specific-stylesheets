@@ -141,7 +141,6 @@ if(is_admin()) {
 	}
 
 	add_action('admin_enqueue_scripts', 'pss_add_cm_files');
-	
 }
 
 // Site specific code.
@@ -156,12 +155,9 @@ if(!is_admin()) {
 		
 		$post_meta = get_post_meta($post->ID, 'pss_style', true);
 		
-		if(!empty($post_meta)) {
-			
-			echo '<style type="text/css">', $post_meta, '</style>';
-			
+		if(!empty($post_meta)) {	
+			echo '<style type="text/css">', $post_meta, '</style>';		
 		}
 	}
-	add_action('wp_head', 'pss_add_inline_stylesheet');
-		
+	add_action('wp_head', 'pss_add_inline_stylesheet');	
 }
