@@ -12,6 +12,14 @@ Installation
 
 - Page Specific Stylesheets can be installed through the WordPress plugin installer, as it's hosted on the WordPress Plugin Directory.
 
+Development
+-----------
+
+- Features will be developed in their own branches.
+- Finished features will be merged into master.
+- Master will always contain the latest, functional (mostly) version of the code.
+- Actual versions of the plugin can be found under version releases.
+
 Roadmap
 -------
 
