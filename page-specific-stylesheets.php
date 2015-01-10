@@ -94,6 +94,7 @@ if(is_admin()) {
 	
 	// Define the function responsible for displaying the stylesheet boxes.
 	function pss_render_meta_box_content() {
+		global $post;
     	include __DIR__ . '/templates/meta-box.php';
     }
 	
