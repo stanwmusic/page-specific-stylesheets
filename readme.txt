@@ -20,10 +20,6 @@ After developing quite a few WordPress websites, it seems to me that the style.c
 
 It keeps your style.css file clean and reduces unused style clutter.
 
-**New in Version 1.2**
-
-A new options page, allowing for the support of adding styles to any custom post type and purging of style data/plugin options on uninstall.
-
 **What About Efficiency?**
 
 There shouldn't be an issue with overhead from the plugin. Admin code is only executed in the admin panel and front end code is executed on the front end. If you're website has a large amount of page-specific styles within it that can be migrated into the plugin, it can boost performance by reducing the download size of your style.css file.
@@ -31,9 +27,9 @@ There shouldn't be an issue with overhead from the plugin. Admin code is only ex
 
 **Roadmap**
 
-The plugin is still rather simple. However, as I use it personally and at work, it will be maintained moving forward.
+This plugin will receive ongoing maintenance as WordPress evolves. No major features are planned, but I am entirely open to feature requests!
 
-The following features are currently planned.
+Feel free to suggest any feature you desire, or check out the code or contribute on [GitHub](https://github.com/tyler-shaw/page-specific-stylesheets), where the project is hosted.
 
 
 *   Additional plugin options.
