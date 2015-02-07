@@ -80,6 +80,7 @@ add_filter('pss_fancy_editor', 'enable_fancy_editor');
 == Changelog ==
 
 v1.2.1
+
 - Verfied compatibility with WordPress 4.1.
 - Moved project development to [GitHub](https://github.com/tyler-shaw/page-specific-stylesheets).
 - Minfied various CSS files that are unlikely to change.
